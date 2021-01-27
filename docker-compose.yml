@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+   mono:
+     image: hello-mono      
+     build: .
+     ports:
+       - "4321:4321"
+
